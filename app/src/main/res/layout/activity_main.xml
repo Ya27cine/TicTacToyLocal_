@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:gravity="center"
+    tools:context="com.prostam.ky.tictactoylocal.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginBottom="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginBottom="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginBottom="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginBottom="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginBottom="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginBottom="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginBottom="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginBottom="3pt"
+            android:layout_marginRight="3pt"
+            android:background="@color/white"
+            android:onClick="clickBox"
+            android:textSize="30pt" />
+    </TableRow>
+
+
+</TableLayout>
