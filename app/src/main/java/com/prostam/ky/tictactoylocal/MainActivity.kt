@@ -13,7 +13,7 @@ import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
-    // attr game :
+    // Game attributes
     var playerPlay = 1
     var playerAndr = 2
     var player01 = ArrayList<Int>()
